@@ -1,0 +1,49 @@
+/* footer section start here */
+    /* footer section start here */
+
+    .footer{
+        background-color: #161f23;
+        padding: 50px 0;
+    }
+
+    .footer h5, h6{
+        color: white;
+    }
+
+    .footer p{
+        color: #8b8c8c;
+    }
+
+    .fa-home, .fa-headphones{
+        color:#cd9b6a;
+    }
+
+    footer .fa-facebook-square{
+        color: white;
+        font-size: 30px;
+    }
+
+    footer .fa-twitter{
+        color: white;
+        font-size: 30px;
+    }
+
+    footer .fa-instagram{
+        color: white;
+        font-size: 30px;
+    }
+
+    .footer-copyright{
+        background-color: #121b1f;
+        color: #8b8c8c;
+    }
+
+    .footer-copyright a{
+        font-weight: bold;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer-copyright a:hover{
+        color: #cd9b6a;
+        text-decoration: none;
+    }

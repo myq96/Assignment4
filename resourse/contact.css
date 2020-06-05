@@ -1,0 +1,203 @@
+.bg-dark{
+    background-color: rgb(51, 51, 51) !important;   
+}
+
+.about-img{
+    background-image: url(images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    height: 100vh;
+    min-height: 250px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-overlay2{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.609) !important;
+}
+
+.about-img h1{
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+
+
+.about-img h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+.contact-form{
+    padding: 100px 0;
+}
+
+.contact-form h2{
+    color: #7c5e40;
+    border-bottom: solid 3px brown;
+}
+
+.contact-form h5{
+    color: #2e2419;
+}
+
+.contact-form h5  span{
+    color: #000;
+    font-size: 14px;
+}
+
+form input, textarea{
+    border: solid 2px brown;
+    border-radius: 10px;
+}
+
+.submit input{
+    border: 0px;
+}
+
+form input:focus, textarea:focus{
+    display: inline;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+}
+
+.name {
+    display: inline;
+    width: 100%;
+}
+
+.subject{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subject input{
+    width: 100%;
+}
+
+.message input{
+    width: 100%;
+}
+
+.submit input{
+    text-transform: uppercase;
+    background: #cd9b6a;
+    border-radius: 25px;
+    padding: 10px 30px;
+    display: inline-block; 
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: poppins;
+    letter-spacing: 1px;
+
+}
+.submit input:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: solid 1px #cd9b6a;
+    border-radius: 25px;
+    padding: 10px 30px;
+    display: inline-block; 
+    color: #cd9b6a;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: poppins;
+    letter-spacing: 1px;
+
+}
+
+
+/* .map{
+    margin-bottom: 100px;
+    height: 500% !important;
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-img h1{
+        font-size: 40px;
+    }
+
+    .details{
+        padding-left: 20px;
+    }
+
+    #email{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .map iframe{
+        height: 300px;
+    }
+
+/* 
+    .gallery-heading h1{
+        font-size: 30px !important;
+    } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-img h1{
+        font-size: 70px;
+        
+    }
+
+    .Name{
+        width: 90%;
+    }
+
+    #email{
+        width: 90%;
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-img h1{
+        font-size: 100px;
+    }
+
+    .Name{
+        width: 93%;
+    }
+
+    #email{
+        width: 93%;
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about-img h1{
+        font-size: 120px;
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about-img h1{
+        font-size: 80px;
+    }
+}

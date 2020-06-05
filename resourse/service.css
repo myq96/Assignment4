@@ -1,0 +1,182 @@
+.bg-dark{
+    background-color: rgb(51, 51, 51) !important;   
+}
+
+.about-img{
+    background-image: url(images/arthur-humeau-Twd3yaqA2NM-unsplash.jpg);
+    height: 100vh;
+    min-height: 250px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-overlay2{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.609) !important;
+}
+
+.about-img h1{
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+
+
+.about-img h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+.plan{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 50px 10px;
+    box-shadow: 1px 0px 11px 4px #888888;
+}
+
+.plan .row{
+    margin-bottom: 40px;
+  
+}
+
+
+/* box-shadow: 1px 0px 11px 4px #888888; */
+
+.plan h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2e2419;
+    border-bottom: solid 2px brown;
+}
+
+.price h4{
+    float: left;
+}
+.price h5{
+    float: right;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-img h1{
+        font-size: 35px;
+    }
+
+    .plan h1{
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 50px;
+        color: #2e2419;
+        border-bottom: solid 2px brown;
+    }
+
+    .price h4{
+        font-size: 16px;
+        color: brown;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .price h5{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .price span{
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-img h1{
+        font-size: 50px;
+    }
+
+    .plan h1{
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+        color: #2e2419;
+        border-bottom: solid 2px brown;
+    }
+
+    .price h4{
+        font-size: 18px;
+        color: brown;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .price h5{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .price span{
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-img h1{
+        font-size: 70px;
+        
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about-img h1{
+        font-size: 80px;
+    }
+     
+    .plan h1{
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+        color: #2e2419;
+        border-bottom: solid 2px brown;
+    }
+
+    .price h4{
+        font-size: 22px;
+        color: brown;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .price h5{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .price span{
+        font-size: 18px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about-img h1{
+        font-size: 80px;
+    }
+}

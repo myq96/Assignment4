@@ -1,0 +1,161 @@
+.gallery-heading{
+    color: #cd9b6a;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.gallery-heading h1{
+    color: #7c5e40;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline  brown;
+    font-size: 50px !important;
+    font-weight: bolder !important;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+.bg-dark{
+    background-color: rgb(51, 51, 51) !important;   
+}
+
+.about-img{
+    background-image: url(images/hai-phung-m4Pd_e-4zKs-unsplash.jpg);
+    height: 100vh;
+    min-height: 250px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-overlay2{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.609) !important;
+}
+
+.about-img h1{
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+
+
+.about-img h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 30%;
+    font-size: 100px;
+    border-bottom: solid 1px brown;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-img h1{
+        font-size: 50px;
+    }
+
+    .gallery-heading h1{
+        font-size: 30px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-img h1{
+        font-size: 70px;
+        
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about-img h1{
+        font-size: 100px;
+        
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about-img h1{
+        font-size: 120px;
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about-img h1{
+        font-size: 80px;
+    }
+}
